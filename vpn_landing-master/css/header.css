@@ -12,7 +12,7 @@
 }
 
 .img__logo {
-    background-image: url('/img/logo.svg');
+    background-image: url('../img/logo.svg');
     background-repeat: no-repeat;
     background-position: center center;
     height: 37px;
@@ -59,8 +59,8 @@
     font-family: var(--mf);
     font-size: 16px;
     font-weight: 500;
-    border:none;
-    background-color:white;
+    border: none;
+    background-color: white;
     cursor: pointer;
 }
 
@@ -69,9 +69,8 @@
 }
 
 .danger_btn {
-    color:var(--danger-color);
+    color: var(--danger-color);
     padding: 13px 45px;
     border: 1px solid var(--danger-color);
-    border-radius: 50px; 
+    border-radius: 50px;
 }
-
